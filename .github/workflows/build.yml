@@ -85,3 +85,10 @@ jobs:
         GOARCH: amd64
         GOOS: windows
         EXTRA_FILES: "LICENSE"
+   
+  buildfile:
+      name: Upload assets
+      uses: actions/upload-artifact@v2
+      with:
+        name: myapp
+        path: dist/*
