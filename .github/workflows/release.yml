@@ -47,11 +47,11 @@ jobs:
           name: myapp
           path: dist/*
       
-      - uses: actions/checkout@v2
+#      - uses: actions/checkout@v2
 
-      - uses: actions/download-artifact@v3
-        with:
-          name: myapp
+#      - uses: actions/download-artifact@v3
+#        with:
+#          name: myapp
 
-      - name: Display structure of downloaded files
-        run: ls -R
+#      - name: Display structure of downloaded files
+#        run: ls -R
