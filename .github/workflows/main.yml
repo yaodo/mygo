@@ -6,7 +6,7 @@ on:
 jobs:
   releases-matrix:
     name: Release Go Binary
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: wangyoucao577/go-release-action@v1.25
